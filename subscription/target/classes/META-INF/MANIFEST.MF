@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: subscription
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: sachin
+Implementation-Vendor-Id: com.sac
+Build-Jdk: 1.8.0_144
+Implementation-URL: https://spring.io/projects/spring-boot/subscriptio
+ n
+Created-By: Maven Integration for Eclipse
+
