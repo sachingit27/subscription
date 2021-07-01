@@ -33,7 +33,7 @@ public class Subsservice {
 	private RestTemplate template;
 
 	public String addUserProfile(Userprofile usr) throws ClassNotFoundException, SQLException {
-		logger.info("Add user Metho invoked");
+		logger.info("Add user Method invoked");
 		String serviceresult = dao.addUserProfile(usr);
 		return serviceresult;
 	}
