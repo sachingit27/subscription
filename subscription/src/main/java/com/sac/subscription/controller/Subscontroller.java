@@ -32,7 +32,8 @@ public class Subscontroller {
 	@GetMapping("/showusers")
 	public List<Userprofile> showUsers() throws ClassNotFoundException, SQLException {
 		List<Userprofile> result = service.showUsers();
-		System.out.println("Sachin here2");
+		System.out.println("Hi Vaibhav Here....!!!");
+		System.out.println("Sachin here");
 		return result;
 
 	}
@@ -46,3 +47,4 @@ public class Subscontroller {
 	}
 
 }
+
