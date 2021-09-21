@@ -22,7 +22,7 @@ public class Subscontroller {
 	@Autowired
 	Subsservice service;
 
-	// Add user method
+	// Add user method1
 	
 	@PostMapping("/adduser")
 	public String addUserProfile(@RequestBody Userprofile usr) throws ClassNotFoundException, SQLException {
