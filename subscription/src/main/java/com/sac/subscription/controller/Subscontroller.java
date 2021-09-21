@@ -22,6 +22,8 @@ public class Subscontroller {
 	@Autowired
 	Subsservice service;
 
+	// Add user method
+	
 	@PostMapping("/adduser")
 	public String addUserProfile(@RequestBody Userprofile usr) throws ClassNotFoundException, SQLException {
 		String result = service.addUserProfile(usr);
@@ -38,6 +40,7 @@ public class Subscontroller {
 
 	}
 
+	
 	@PostMapping("/subscription")
 	public String enrollMember(@RequestBody TransactionRequest request) {
 
